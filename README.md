@@ -29,7 +29,11 @@ Arch Linux without using pip
 
 install Tk, Tesseract and various python modules
 
-`sudo pacman -S tk tesseract tesseract-data-jpn python-pillow python-pyocr python-magic python-myougiden-git python-rarfile`
+`sudo pacman -S tk tesseract tesseract-data-jpn python-pillow python-magic python-rarfile`
+
+install the remaining python modules from the AUR either manually or by using an AUR helper like yaourt
+
+`yaourt -S python-pyocr python-myougiden-git python-rarfile`
 
 Arch Linux using pip
 ----------
