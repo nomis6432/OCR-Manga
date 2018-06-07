@@ -9,7 +9,7 @@ OCR-Manga has a few dependencies you will need:
   - Most distributions have tkinter available in their package repositories
 - [Tesseract](https://github.com/tesseract-ocr/tesseract)
   - You will also need the [jpn data files](https://github.com/tesseract-ocr/langdata)
-  - Most distributions have both Tesseract and various language data available 
+  - Most distributions have both Tesseract and various language data available  
     in their package repositories.
 - [pillow](https://github.com/python-pillow/Pillow)
 - [pyocr](https://github.com/jflesch/pyocr)
@@ -24,14 +24,18 @@ Install pip, Tk, and Tesseract:
 
 `sudo apt-get install python3-pip python3-tk tesseract-ocr tesseract-ocr-jpn`
 
-
-Arch Linux
+Arch Linux without using pip
 ----------
 
+install Tk, Tesseract and various python modules
+
+`sudo pacman -S tk tesseract tesseract-data-jpn python-pillow python-pyocr python-magic python-myougiden-git python-rarfile`
+
+Arch Linux using pip
+----------
 Install pip, Tk, and Tesseract:
 
 `sudo pacman -S python-pip tk tesseract tesseract-data-jpn`
-
 
 Gentoo
 ------
@@ -42,6 +46,7 @@ either have `ja` in your L10N or specify `l10n_ja` as an USE flag for Tesseract.
 Install pip and Tesseract:
 
 `sudo emerge -a dev-python/pip app-lang/tesseract`
+
 
 Install various python modules:
 -------------------------------
