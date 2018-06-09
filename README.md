@@ -33,7 +33,7 @@ install Tk, Tesseract and various python modules
 
 install the remaining python modules from the AUR either manually or by using an AUR helper like yaourt
 
-`yaourt -S python-pyocr python-myougiden-git python-rarfile`python-magic-ahupp
+`yaourt -S python-pyocr python-myougiden python-rarfile python-magic-ahupp`
 
 Arch Linux using pip
 ----------
